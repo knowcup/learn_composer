@@ -1,0 +1,21 @@
+{
+    "name": "knowcup/learn_composer",
+    "description": "ѧϰcomposer",
+    "type": "composer-plugin",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "0.1",
+    "authors": [
+        {
+            "name": "knowcup",
+            "email": "knowcup@163.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
